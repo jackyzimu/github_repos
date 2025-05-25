@@ -1,4 +1,5 @@
 import requests
+#显示星级最高的储存库。
 
 # 执行API调用并储存响应。
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
